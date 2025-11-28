@@ -1,5 +1,11 @@
 package com.effectivesistemas.csv.model;
 
+/**
+ * Representa uma venda que será registrada ou validada a partir de um arquivo CSV.
+ *
+ * Cada instância desta classe corresponde a uma linha válida no arquivo,
+ * contendo as informações essenciais da transação.
+ */
 public class Venda {
 
     private String numeroDaVenda;
@@ -10,6 +16,14 @@ public class Venda {
     public Venda() {
     }
 
+    /**
+     * Construtor principal que facilita a criação da venda com todos os dados necessários.
+     *
+     * @param numeroDaVenda  Número identificador da venda
+     * @param nomeDoCliente  Nome do cliente responsável pela compra
+     * @param dataDaVenda    Data da realização da venda
+     * @param valorDaVenda   Valor total da venda
+     */
     public Venda(
             String numeroDaVenda,
             String nomeDoCliente,
