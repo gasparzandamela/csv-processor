@@ -35,7 +35,7 @@ Caso contrário, deve ser tratado como **inválido**.
 
 ---
 
-### 🔹 3. Ação após a validação
+### 🔹 3. Acção após a validação
 
 Após avaliar o arquivo:
 
