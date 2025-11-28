@@ -1,16 +1,16 @@
 ## 🧩 Desafio Técnico – Processamento e Validação de Arquivos CSV
 
-O objetivo deste desafio é desenvolver uma aplicação Java capaz de ler, validar e categorizar arquivos CSV conforme regras específicas. A solução deve ser robusta, estruturada e construída utilizando o ecossistema Spring Boot.
+O objectivo deste desafio é desenvolver uma aplicação Java capaz de ler, validar e categorizar arquivos CSV conforme regras específicas. A solução deve ser robusta, estruturada e construída utilizando o ecossistema Spring Boot.
 
-### 🎯 Objetivo Geral
-Implementar um sistema que processe arquivos CSV localizados em um diretório, valide seu conteúdo e os mova automaticamente para pastas distintas, dependendo da qualidade das informações.
+### 🎯 Objectivo Geral
+Implementar um sistema que processe arquivos CSV localizados em um directório, valide seu conteúdo e os mova automaticamente para pastas distintas, dependendo da qualidade das informações.
 
 ---
 
 ## 📌 Requisitos do Desafio
 
-### 🔹 1. Estrutura de diretórios
-A aplicação deve trabalhar com três diretórios:
+### 🔹 1. Estrutura de directórios
+A aplicação deve trabalhar com três directórios:
 
 - `/PENDENTES` → Onde os arquivos CSV chegam.
 - `/VALIDO` → Onde serão movidos os CSVs considerados válidos.
@@ -23,7 +23,7 @@ A aplicação deve trabalhar com três diretórios:
 Cada arquivo CSV deve ser analisado e validado conforme os seguintes critérios:
 
 1. **O arquivo não pode estar vazio**  
-2. **Cada linha deve conter exatamente 4 colunas**, sendo elas:
+2. **Cada linha deve conter exactamente 4 colunas**, sendo elas:
    - `NUMERO_DA_VENDA`
    - `NOME_DO_CLIENTE`
    - `DATA_DA_VENDA`
