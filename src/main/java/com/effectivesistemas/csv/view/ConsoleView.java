@@ -16,4 +16,5 @@ public class ConsoleView {
     public void exibirErro(String erro) {
         System.err.println("[ERRO] " + erro);
     }
+
 }
